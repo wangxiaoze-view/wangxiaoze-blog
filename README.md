@@ -12,3 +12,5 @@
 - `yarn run docs:build` 打包
 
 #### 使用说明
+
+可直接访问网页[博客](http://www.wangxiaoze.wang)
