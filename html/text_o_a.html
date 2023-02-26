@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-h {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .color-1 {
+            background-color: aquamarine;
+        }
+        .color-2 {
+            background-color: blanchedalmond;
+        }
+        .color-3 {
+            background-color: cadetblue;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .a-ul {
+            position: fixed;
+            z-index: 99;
+            right: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 1px solid #eee;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #fff;
+        }
+
+        .item-a {
+            width: 80px ;
+            text-align: center;
+            padding: 8px 15px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>展示锚点链接</h1>
+
+    <ul class="a-ul">
+        <li class="item-a"><a href="#news">新闻</a></li>
+        <li class="item-a"><a href="#ty">体育</a></li>
+        <li class="item-a"><a href="#games">游戏</a></li>
+    </ul>
+
+    <div class="box-container">
+
+        <div class="box-h color-1" id="news">
+            <h2>新闻</h2>
+        </div>
+        <div class="box-h color-2" id="ty">
+            <h2>体育</h2>
+        </div>
+        <div class="box-h color-3" id="games">
+            <h2>游戏</h2>
+        </div>
+    </div>
+</body>
+</html>

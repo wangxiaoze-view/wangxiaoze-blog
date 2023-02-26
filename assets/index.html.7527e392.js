@@ -1,0 +1,1 @@
+import{_ as t,X as n,Y as c,Z as e}from"./framework.ba356234.js";const o={},s=e("div",{class:"custom-container info"},[e("p",{class:"custom-container-title"},"简单介绍本模块记录的大致内容"),e("p",null,"收集有关 node 功能或者其他资料的模块整合；｛暂时简单介绍｝")],-1),_=[s];function a(i,l){return n(),c("div",null,_)}const d=t(o,[["render",a],["__file","index.html.vue"]]);export{d as default};

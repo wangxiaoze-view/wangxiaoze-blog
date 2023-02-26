@@ -1,0 +1,1 @@
+import{_ as o,X as t,Y as c,Z as e}from"./framework.ba356234.js";const l={},_=e("blockquote",null,[e("p",null,"暂未整理")],-1),n=[_];function s(r,a){return t(),c("div",null,n)}const d=o(l,[["render",s],["__file","block.html.vue"]]);export{d as default};
